@@ -5,5 +5,6 @@ Tecnologias
 - **JavaScript** — lógica do jogo e controles
 
 Controles<br>
+
 Teclado:
 - **Setas direcionais**: movimentar a cobrinha
