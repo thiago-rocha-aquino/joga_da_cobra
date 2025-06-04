@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  touch-action: none;
+}
+
+canvas {
+  background-color: #111;
+  border: 2px solid #fff;
+  max-width: 95vmin;
+  max-height: 95vmin;
+}
+
+.controls {
+  margin-top: 20px;
+  display: grid;
+  grid-template-areas:
+    ". up ."
+    "left . right"
+    ". down .";
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 10px;
+}
+
+.control-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color 0.2s;
+}
+
+.control-btn:active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#btnUp { grid-area: up; }
+#btnDown { grid-area: down; }
+#btnLeft { grid-area: left; }
+#btnRight { grid-area: right; }
+
+@media (min-width: 768px) {
+  .controls {
+    display: none;
+  }
+}
