@@ -4,6 +4,6 @@ Tecnologias
 - **CSS3** — estilização e layout responsivo
 - **JavaScript** — lógica do jogo e controles
 
-Controles
+Controles<br>
 Teclado:
 - **Setas direcionais**: movimentar a cobrinha
