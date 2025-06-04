@@ -8,3 +8,7 @@ Controles<br>
 
 Teclado:
 - **Setas direcionais**: movimentar a cobrinha
+- 
+Touch (dispositivos móveis):
+
+- Botões virtuais de controle (↑ ↓ ← →)
