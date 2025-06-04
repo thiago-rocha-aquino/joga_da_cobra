@@ -1,4 +1,4 @@
-<h1>Jogo da Cobrinha</h1>
+<h1># 🐍 Jogo da Cobrinha (Snake Game)</h1>
 
 Tecnologias
 
